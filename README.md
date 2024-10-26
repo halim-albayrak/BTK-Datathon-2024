@@ -19,6 +19,6 @@ Evaluation Score = Indicates students' eligibility for receiving a scholarship b
 
 - Feature Engineering = There were numerous indices across almost all columns that conveyed the same meaning but contained typos, so we began by correcting these. During this process, we created various mappings, and the fuzzywuzzy library was particularly helpful for this task. We grouped some of the columns and consolidated those that represented the same information into single columns. Additionally, we researched various NGOs, volunteer projects, and entrepreneurial ideas online and performed NLP analysis on this data. In this analysis, we scored the words, created a new column based on these scores, and ranked them accordingly.
 
--Data = For the feature engineering part, to perform the mapping process I mentioned, we found a CSV file online containing the provinces and districts of Turkey. Additionally, we extracted data on universities from https://yokatlas.yok.gov.tr/.
+- Data = For the feature engineering part, to perform the mapping process I mentioned, we found a CSV file online containing the provinces and districts of Turkey. Additionally, we extracted data on universities from https://yokatlas.yok.gov.tr/.
 
--Performance = RMSE 5.8539 with Catboost
+- Performance = RMSE 5.8539 with Catboost
