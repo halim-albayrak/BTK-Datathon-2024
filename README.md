@@ -22,3 +22,5 @@ Evaluation Score = Indicates students' eligibility for receiving a scholarship b
 - Data = For the feature engineering part, to perform the mapping process I mentioned, we found a CSV file online containing the provinces and districts of Turkey. Additionally, we extracted data on universities from https://yokatlas.yok.gov.tr/.
 
 - Performance = RMSE 5.8539 with Catboost
+
+### Competition Link = https://www.kaggle.com/competitions/datathon-2024
